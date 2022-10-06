@@ -48,7 +48,7 @@ def pace(
 
 
 @running.command()
-def goodbye(name: str, formal: bool = False):git 
+def goodbye(name: str, formal: bool = False):
     if formal:
         print(f"Have a good night {name}, sir!")
     else:
