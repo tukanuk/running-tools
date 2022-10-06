@@ -20,6 +20,7 @@ Usage: running_tools [OPTIONS] COMMAND [ARGS]...
 
 ## Pace Tool
 
+```
 Usage: running_tools pace [OPTIONS] DISTANCE TIME
 
  The most basic pace calculator
@@ -32,3 +33,4 @@ Usage: running_tools pace [OPTIONS] DISTANCE TIME
 ╭─ Options ────────────────────────────────────────────────────────────────────────────────╮
 │ --help          Show this message and exit.                                              │
 ╰──────────────────────────────────────────────────────────────────────────────────────────╯
+```
