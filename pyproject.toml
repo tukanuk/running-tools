@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "running-tools"
+name = "running_tools"
 version = "0.0.1"
 description = "A set of helpful tools for runners"
 authors = ["Ben Davidson <benjamin@idavidson.ca>"]
@@ -7,15 +7,23 @@ license = "MIT"
 readme = "README.md"
 repository = "https://github.com/tukanuk/running-tools"
 keywords = ["running", "pace"]
+packages = [
+    { include = "src/running_tools" }
+]
+
+[tool.poetry.scripts]
+running_tools = "src.running_tools.running_tools:running"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+typer = {extras = ["all"], version = "^0.6.1"}
 
 [tool.poetry.dev-dependencies]
 isort = "^5.10.1"
 black = "^22.8.0"
 pytest = "^7.1.3"
 mypy = "^0.981"
+pylint = "^2.15.3"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
