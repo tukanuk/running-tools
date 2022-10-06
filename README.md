@@ -2,6 +2,20 @@
 
 A collection of tools for runners.
 
+## Installation
+
+**pip**
+```
+pip install running_tools
+```
+
+**pipx**
+```
+pipx install running_tools
+```
+
+## Usage
+
 ```
 Usage: running_tools [OPTIONS] COMMAND [ARGS]...
 
@@ -18,7 +32,7 @@ Usage: running_tools [OPTIONS] COMMAND [ARGS]...
 ```
 
 
-## Pace Tool
+### Pace Tool
 
 ```
 Usage: running_tools pace [OPTIONS] DISTANCE TIME
